@@ -1,0 +1,30 @@
+:root {
+    --color-text: black;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family:'Cabin', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0%;
+    font-weight: 800;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
