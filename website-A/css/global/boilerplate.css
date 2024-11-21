@@ -1,5 +1,30 @@
 :root {
-    --color-text: black;
+    --color-primary: #ff6b00;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-grey: #a0a0a0;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+
+    --text-color: var(--color-black);
+
+    --font-family-base: 'Cabin', Arial, Helvetica, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+    /** HEADER **/
+    --header-padding: 4rem 0 0;
 }
 
 *,
@@ -10,8 +35,11 @@
 
 body {
     margin: 0%;
-    font-family:'Cabin', Arial, Helvetica, sans-serif;
+    padding: 0;
+    font-family: var(--font-family-base);
     font-weight: 500;
+    height: 100%;
+    /* Full height to allow layout adjustments */
 }
 
 h1,
@@ -20,6 +48,7 @@ h3,
 h4 {
     margin: 0%;
     font-weight: 800;
+    font-family: var(--font-family-title);
     
 }
 
@@ -27,4 +56,35 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: var(--color-light-grey);
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Make it responsive to screen size */
+    padding: 0 1rem; /* Add padding for smaller screens */
+
 }

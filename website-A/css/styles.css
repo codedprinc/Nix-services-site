@@ -1,3 +1,5 @@
 @import url(./global/normalize.css);
 @import url(./global/boilerplate.css);
 @import url(./global/fonts.css);
+@import url(./header.css);
+@import url(./main.css);

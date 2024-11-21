@@ -1,0 +1,33 @@
+.hero {
+    /* border: red solid 3px; */
+    margin-bottom: 1rem;
+}
+
+.hero-logo {
+    padding: 0 1rem;
+}
+
+.hero-logo-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-pic {
+    margin-right: 1rem;
+}
+
+
+
+.hero-logo button {
+    background-color: white;
+    border: none;
+    border-bottom: black solid 2px;
+    border-right: black solid 2px ;
+   
+}
+
+.hero-logo button:hover {
+    background-color: var(--color-primary);
+   
+}
