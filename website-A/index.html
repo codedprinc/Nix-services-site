@@ -15,11 +15,19 @@
     <body>
         <!--Header-->
         <header class="header">
-            <div class="container">
+            <div class="container ">
                 <div class="header-logo-nav">
-                    <div class="header-logo"><a href="/website-A/index.html"><img
+                    <div class="header-logo">
+                        <a href="/website-A/index.html">
+                            <img
                                 src="/website-A/assets/images/nix_services_logo.png"
-                                alt="Nix services logo" width="140" height="90"></a>
+                                alt="Nix services logo" width="150">
+                        </a>
+                    </div>
+                    <div class="toggle-menu">
+                        <span class="toggle-menu-icon"></span>
+                        <span class="toggle-menu-icon"></span>
+                        <span class="toggle-menu-icon"></span>
                     </div>
                     <nav class="navbar-menu">
                         <ul class="nav">
@@ -39,40 +47,88 @@
                 </div>
             </div>
         </header>
+        <script>
+            // Select elements
+const toggleMenu = document.querySelector('.toggle-menu');
+const navbarMenu = document.querySelector('.navbar-menu');
+
+// Toggle menu and icon rotation
+toggleMenu.addEventListener('click', function (e) {
+    e.stopPropagation();
+    toggleMenu.classList.toggle('active'); // Add active state to toggle-menu
+    navbarMenu.classList.toggle('active');
+});
+
+// Close menu and reset rotation when clicking outside
+document.addEventListener('click', function (e) {
+    if (!navbarMenu.contains(e.target) && !toggleMenu.contains(e.target)) {
+        navbarMenu.classList.remove('active');
+        toggleMenu.classList.remove('active');
+    }
+});
+
+    
+          </script>
         <!--Main-->
         <main>
             <div class="container">
                 <section class="hero">
                     <div class="hero-logo-pic">
-                         <div class="hero-logo">
-                             <h1> Nix Services <br>
+                        <div class="hero-logo">
+                            <h1> Nix Services <br>
                                 Company Limited</h1>
-                             <p>We embrace quality as a provision.</p>
-                             <a href="/website-A/pages/about_us.html"><button>Learn More</button></a>
-                         </div>
-                         <div class="hero-pic">
-                            <img src="/website-A/assets/images/person2.png" alt="">
-                         </div>
+                            <p>We embrace quality as a provision.</p>
+                            <a href="/website-A/pages/about_us.html"><button>Learn
+                                    More</button></a>
+                        </div>
+                        <div class="hero-pic">
+                            <img src="/website-A/assets/images/printer.png" alt>
+                        </div>
                     </div>
                 </section>
-                MOTTO
-                We embrace quality as a provision.
-                VISION
-                To be the partners of choice for both private and government
-                entities in our areas of expertise.
-                MISSION STATEMENT
-                To establish lasting mutually beneficial relations with all our
-                clients through the provision of
-                efficient, quality, cost effective services and products using
-                most advanced technology.
+                <!--Card sections-->
+                <section class="cards">
+                    <div class="card">
+                        <div class="card-pic">
+                            <img src="/website-A/assets/images/book-a.png"
+                                alt="picture of a row of books">
+                        </div>
+                        <div class="div-cards">
+                            <div class="card-a">
+                                <!-- <div class="bg-orange"> </div> -->
+                                MOTTO
+                                We embrace quality as a provision.
+                            </div>
+                            <div class="card-b">
+                                VISION
+                                To be the partners of choice for both private
+                                and
+                                government
+                                entities in our areas of expertise.
+                            </div>
+                            <div class="card-c">
+                                MISSION STATEMENT
+                                To establish lasting mutually beneficial
+                                relations
+                                with all our
+                                clients through the provision of
+                                efficient, quality, cost effective services and
+                                products using
+                                most advanced technology.
+                            </div>
+                            <div class="card-d">
+                                OUR CORE VALUES
+                                <ul>
+                                    <li>Professionalism</li>
+                                    <li>Integrity</li>
+                                    <li>Customer satisfaction</li>
+                                    <li>Pursuit of excellence</li>
+                                </ul>
+                            </div>
+                        </div>
 
-                OUR CORE VALUES
-                <ul>
-                    <li>Professionalism</li>
-                    <li>Integrity</li>
-                    <li>Customer satisfaction</li>
-                    <li>Pursuit of excellence</li>
-                </ul>
+                    </div>
+                </section>
             </div>
         </main>
 

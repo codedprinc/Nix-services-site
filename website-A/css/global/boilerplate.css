@@ -11,11 +11,11 @@
     --font-family-base: 'Cabin', Arial, Helvetica, sans-serif;
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-    --font-size-small: 1.2rem;
-    --font-size-medium: 1.6rem;
-    --font-size-large: 1.8rem;
-    --font-size-x-large: 2.3rem;
-    --font-size-xx-large: 4.8rem;
+    --fs-small: 1.2rem;
+    --fs-medium: 1.6rem;
+    --fs-large: 1.8rem;
+    --fs-x-large: 2.3rem;
+    --fs-xx-large: 4.8rem;
 
     --font-weight-regular: 400;
     --font-weight-bold: 700;
@@ -37,9 +37,10 @@ body {
     margin: 0%;
     padding: 0;
     font-family: var(--font-family-base);
-    font-weight: 500;
     height: 100%;
     /* Full height to allow layout adjustments */
+    font-size: 18px;
+    
 }
 
 h1,
@@ -47,7 +48,6 @@ h2,
 h3,
 h4 {
     margin: 0%;
-    font-weight: 800;
     font-family: var(--font-family-title);
     
 }
@@ -73,7 +73,7 @@ a:hover {
 }
 
 a:active {
-    background-color: var(--color-light-grey);
+    text-decoration: underline;
 }
 
 li {
@@ -81,10 +81,37 @@ li {
 }
 
 .container {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%; /* Make it responsive to screen size */
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px; /* Make it responsive to screen size */
     padding: 0 1rem; /* Add padding for smaller screens */
 
 }
+@media screen and (max-width:480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font-family-base);
+        height: 100%;
+        /* Full height to allow layout adjustments */
+        font-size: 18px;
+        width: 100%;
+        max-width: 480px;
+        box-sizing: border-box;
+        
+    }
+
+    .container {
+        /* max-width: 480px; */
+        width: 100%;
+        margin: 0 auto;
+        padding: 0%;
+        
+    }
+}
+/*  For media queries
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
