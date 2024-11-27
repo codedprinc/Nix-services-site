@@ -6,6 +6,11 @@
             content="width=device-width, initial-scale=1, viewport-fit=cover">
         <title>Nix Services Company Limited</title>
         <meta name="description" content="Nix servies is a printing company">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+            integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="/website-A/css/styles.css">
         <link rel="icon" type="image/x-icon"
             href="/website-A/assets/icons/favicon.ico">
@@ -37,38 +42,18 @@
                                     href="/website-A/pages/staff.html"
                                     class="nav-link">Staff</a></li>
                             <li class="nav-item"><a
-                                    href="/website-A/pages/services.html"
+                                    href="#services"
                                     class="nav-link">Products and services</a></li>
                             <li class="nav-item"><a
                                     href="/website-A/pages/about_us.html"
                                     class="nav-link">About us</a></li>
                         </ul>
                     </nav>
+                    <div class="header-dark-mode-btn"><button id="darkModeToggle"
+                        ><i class="fa-regular fa-star "></i></button></i></div>
                 </div>
             </div>
         </header>
-        <script>
-            // Select elements
-const toggleMenu = document.querySelector('.toggle-menu');
-const navbarMenu = document.querySelector('.navbar-menu');
-
-// Toggle menu and icon rotation
-toggleMenu.addEventListener('click', function (e) {
-    e.stopPropagation();
-    toggleMenu.classList.toggle('active'); // Add active state to toggle-menu
-    navbarMenu.classList.toggle('active');
-});
-
-// Close menu and reset rotation when clicking outside
-document.addEventListener('click', function (e) {
-    if (!navbarMenu.contains(e.target) && !toggleMenu.contains(e.target)) {
-        navbarMenu.classList.remove('active');
-        toggleMenu.classList.remove('active');
-    }
-});
-
-    
-          </script>
         <!--Main-->
         <main>
             <div class="container">
@@ -82,22 +67,22 @@ document.addEventListener('click', function (e) {
                                     More</button></a>
                         </div>
                         <div class="hero-pic">
-                            <img src="/website-A/assets/images/printer.png" alt>
+                            <img src="img" alt="printe rimage">
                         </div>
                     </div>
                 </section>
                 <!--Card sections-->
                 <section class="cards">
+                    <h2 id="services">Services</h2>
                     <div class="card">
-                        <div class="card-pic">
+                        <!-- <div class="card-pic">
                             <img src="/website-A/assets/images/book-a.png"
                                 alt="picture of a row of books">
-                        </div>
+                        </div> -->
                         <div class="div-cards">
                             <div class="card-a">
                                 <!-- <div class="bg-orange"> </div> -->
-                                MOTTO
-                                We embrace quality as a provision.
+                               
                             </div>
                             <div class="card-b">
                                 VISION
@@ -131,6 +116,6 @@ document.addEventListener('click', function (e) {
                 </section>
             </div>
         </main>
-
+        <script src="/website-A/scripts/scripts.js"></script>
     </body>
 </html>

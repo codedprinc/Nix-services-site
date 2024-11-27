@@ -1,5 +1,7 @@
-@import url(./global/normalize.css);
-@import url(./global/boilerplate.css);
-@import url(./global/fonts.css);
-@import url(./header.css);
-@import url(./main.css);
+@import url(/website-A/css/global/normalize.css);
+@import url(/website-A/css/global/boilerplate.css);
+@import url(/website-A/css/global/fonts.css);
+@import url(/website-A/css/global/media_query.css);
+@import url(/website-A/css/global/dark_mode.css);
+@import url(/website-A/css/header.css);
+@import url(/website-A/css/main.css);
