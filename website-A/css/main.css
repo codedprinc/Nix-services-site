@@ -1,0 +1,99 @@
+.hero {
+    /* border: red solid 3px; */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+@media screen  and (max-width:480px) {
+    .hero {
+        display: none;
+    }
+}
+.hero-logo {
+    padding: 0 1rem;
+}
+
+.hero-logo h1 {
+    font-size: 4rem;
+}
+
+
+.hero-logo-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-pic {
+    margin-left: 1rem;
+}
+
+
+
+.hero-logo button {
+    background-color: white;
+    border: none;
+    border-bottom: black solid 2px;
+    border-right: black solid 2px ;
+   
+}
+
+.hero-logo button:hover {
+    background-color: var(--color-primary);
+   
+}
+
+
+
+/* Card section */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    gap: 2rem; /* Space between image and grid */
+}
+
+.card-pic img {
+    max-width: 300px; /* Restrict image width */
+    height: auto;
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+.div-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+    gap: 1rem; /* Space between grid items */
+    width: 100%; /* Ensure full width for grid */
+}
+
+.div-cards > div {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 1rem;
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.div-cards > div:hover {
+    background-color: var(--color-primary);
+    /* opacity: 0.5; */
+    color: var(--color-black);
+}
+.div-cards ul {
+    margin: 0;
+    padding-left: 1.5rem; /* Space for list indentation */
+}
+
+.div-cards ul li {
+    margin: 0.5rem 0; /* Space between list items */
+}
+
+
+@media screen  and (max-width:480px) {
+    .card {
+        display: none;
+    }
+}

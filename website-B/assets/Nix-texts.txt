@@ -1,0 +1,113 @@
+Nix Services Company Limited is a wholly owned Kenyan company founded in 2006 and incorporated in 2010.
+               The company thrives in book binding, document archiving and recently scanning of Company financial documents into orderly and easily accessible state, we also do general book binding of daily newspapers, bound into volumes of one month each, book repairs and book restoration.
+               At Nix services you expect nothing short of professionalism, dedication and total client satisfaction from the intial meeting all the way through the project execution and conclusion. We guarantee sufficient support even after the completion of the projects and we ensure that the personnel proposed for the projects execution have the relevant professional skills and qualifications, enhanced by the appropriate industry experience.
+               At Nix services we ensure delivery of clients projects in accordance to agreed costs, time schedule and environmetally safe procedures.
+               We pride ourselves in providing quality innovative services and high level of commitment with flexibility unrivaled in the industry.Our policy of openness and frankness is central to our management philosophy. We understand that people are fundamental to the success of our business and undertake all assignments with total commitment to deliver quality timely services.</p>
+       
+
+<h3><b>MOTTO</b></h3>
+           <p>We embrace quality as a provision.</p>
+       </div>
+       <div style="text-align: center;">
+           <h3><b>VISION</b></h3>
+           <p>To be the partners of choice for both private and government entities in our areas of expertise.</p>
+
+           <h3><b>MISSION STATEMENT</b></h3>
+           <p>To establish lasting mutually beneficial relations with all our clients through the provision of
+               efficient, quality, cost effective services and products using most advanced technology.</p>
+       </div>
+       <h3><b>OUR CORE VALUES</b></h3>
+       <ul>
+           <li>Professionalism</li>
+           <li>Integrity</li>
+           <li>Customer satisfaction</li>
+           <li>Pursuit of excellence</li>
+
+
+<h3><b>LOCATION</b></h3>
+        <p>The company's offices are located in Nairobi-Kenya, on Munyu road off Accra Rd, Ridge house 2<sup>nd</sup>floor.</p>
+        <h3><b>STAFF</b></h3>
+        <p>The management boasts of a team of professionals who have IT, Administrative and Financial background. Based on their vast professional and hands-on experience they are able to offer excellent client advice in their respective fields. This professional integration offers the company an edge by making it a one stop shop for its clients. </p>
+        <h3><b>COMPANY ORGANIZATION CHART</b></h3>
+        <!-- FLOWCHART -->
+
+
+        <h3><b>KEY STAFF PERSONNEL</b></h3>
+        <ul>
+            <li><b>KENNETH OYUGI</b> - Manager/ binder</li>
+            <li><b>MILDRED WERE </b> - Administrator</li>
+            <li><b>GILBERT OLIECH </b> - Binder and Quality control</li>
+            <li><b>ERIC MUYALE </b> - Information Technology</li>
+            <li><b>GEOFREYY MASHIA </b> - Accounts</li>
+            <li><b>SILVESTER OREMO </b> - Sales and Production</li>
+        </ul>
+
+        <p align ="Right"><i>Please do not hesitate to contact the undersigned for any inquiries.
+            Assuring you of out commitment to serve you with excellent to serve you with excellent second to none service at all time.</i></p>
+  
+
+
+<h3><b>THE RATIONALE</b></h3>
+        <p>We offer high quality products and services to our clients, delivered in time. Our main emphasis is on thorough examination of cutting costs and ensuring client satisfaction by combining the best equipment with years of experience to apply the highest professional standards.</p>
+        <h3><b>PRODUCTS & SERVICES</b></h3>
+        <ul class="lists">
+            <li>Document sorting</li>
+            <li>Document scanning</li>
+            <li>Custom sourcing and distribution</li>
+            <li>Binding</li>
+            <li>Setting up of archives</li>
+            <li>Archival of bound documents</li>
+            <li>Branding</li>
+        </ul>
+        <h3><b>DOCUMENT MANAGEMENT SYSTEM(DMS)</b></h3>
+        <p>Document management is one of the oldest methods of managing the ever growing amount of organization data, be it permanent or temporary company data. Sometimes back we used to store the data in bound form but this proved to be tricky in the sense that getting electronic copies of the same became slightly difficult. In the advent of technology we have embraced modern modes of data storage not withstanding the fact that we still need to store the scanned documents in bound form so as to avoid loss and displacement, also minimize on the storage space required. The bound data is organized in serialized form to be a reflection of the scanned data hence ease in access for both.
+            We as an organization realized that most of the scanned documents which initially had running order would not reflect the same when we secured the binding contracts hence we had to sort and run the documents again to enable smooth operation during binding process. These experiences  made us venture into scanning as a preceeding process to binding and follow the whole process to conclusion, conclusion being archival of the bound document.</p>
+        <p><i>The process is as follows:</i></p>
+        <ul class="lists">
+            <li>Sorting of documents</li>
+            <li>Listing of documents</li>
+            <li>Arrangement of documents</li>
+            <li>Scanning and data capture</li>
+            <li>Indexing of the documents</li>
+            <li>Processing of the data</li>
+            <li>Data storage in either servers or cloud</li>
+            <li>Training of staff on the usage and accessibility of stored data</li>
+            <li>Binding of the scanned documents</li>
+            <li>Labelling of bound documents</li>
+            <li>Setting of the archive</li>
+            <li>Archival of the documents into shelves</li>
+        </ul>
+
+        <p>The above process is cost effective and very efficient. In our observation over time, space, money and even the health implications that arise form scavenging for company data among heaps and piles of age old but still very essential data run into millions of shillings, also lost man hours and even business opportunities there in were enormous and un-imaginable.  </p>
+        <p>the main benefits of this process are:
+        <ul class="lists">
+            <li>Reduced storage</li>            <li>Improved, faster and more flexible search.</li>
+            <li>Flexible retrieval</li>         <li>Controlled and improved document distribution</li>
+            <li>Flexible indexing</li>          <li>Improved regulatory</li>
+            <li>Improved security</li>          <li>Improved Internal operations</li>
+            <li>Disaster recovery</li>          <li>Improved Customer Service and satisfaction</li>
+            <li>No lost files</li>              <li>Preserve Intellectual Capital- Organizational Knowledge</li>
+            <li>Digital archiving</li>          <li>Improved Cash flow</li>
+            <li>Competitive edge</li>           <li>Box files can be re-used to collect data.</li>
+        </ul>
+        </p>
+        <p>For instance when you take box file stacked in shelves they gather a lot of dust unlike a book that is bound and compact, bearing in mind that the documents of the same caliber in 5 box files can be bound into 10 books and occupy a space of half the number of five box files. Once the box files are emptied they can be recycled for use at a later date.
+            In essence what we are saying when the documents are archived you accrue benefits in more than one area, we are talking of time, space, money and easy access to company data, just a click away.</p>
+        <h3><b>BOOK BINDING AND BOOK RESTORATION</b></h3>
+        <p>Our company also boasts of a vast knowledge in assorted book binding and book restoration expertise, having done it for many years with positive customer response to services rendered. This is one way or giving old worn out book of immense value a new lifeline on the shelves and also for use for generations to come.</p>
+    
+
+<h3><b>TRADE REFEREES / CLIENT LIST</b></h3>
+        <p>The following is our list of clients and referees but not limited to:
+        <ol>
+            <li>Insurance Company of East Africa (ICEA) </li>
+            <li>Ashitiva and Company Advocates</li>
+            <li>Strathmore University</li>
+            <li>Heritage Insurance Company</li>
+            <li>KEMRI - Kenya</li>
+            <li>Crop Nutrition Lab Services</li>
+            <li>Kenya Methodist University</li>
+            <li>Pan African Insurance Company</li>
+            <li>Don Bosco Boys Town Technical Institute</li>
+            <li>Technical University Of Kenya</li>
+        

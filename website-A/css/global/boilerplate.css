@@ -1,17 +1,49 @@
 :root {
-    --color-text: black;
+    --color-primary: #ff6b00;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-grey: #a0a0a0;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+
+    --bg-color-a: #000;
+
+    --text-color: var(--color-black);
+    --text-color-b: var(--color-primary);
+
+    --font-family-base: 'Cabin', Arial, Helvetica, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    --fs-small: 1.2rem;
+    --fs-medium: 1.6rem;
+    --fs-large: 1.8rem;
+    --fs-x-large: 2.3rem;
+    --fs-xx-large: 4.8rem;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+    /** HEADER **/
+    --header-padding: 4rem 0 0;
 }
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
 
 body {
     margin: 0%;
-    font-family:'Cabin', Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    padding: 0;
+    font-family: var(--font-family-base);
+    height: 100%;
+    /* Full height to allow layout adjustments */
+    font-size: 18px;
+
 }
 
 h1,
@@ -19,8 +51,8 @@ h2,
 h3,
 h4 {
     margin: 0%;
-    font-weight: 800;
-    
+    font-family: var(--font-family-title);
+
 }
 
 img {
@@ -28,3 +60,57 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 2px dotted blue;
+
+}
+
+
+button {
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+
+/*  For media queries
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* min-widt475
+min-widt640
+min-widt768
+min-widt1024
+min-widt1280
+min-width1536px */
