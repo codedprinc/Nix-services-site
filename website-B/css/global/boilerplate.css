@@ -1,0 +1,110 @@
+:root {
+    --color-primary: #ff6b00;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-grey: #a0a0a0;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+
+    --bg-color-a: #000;
+
+    --text-color: var(--color-black);
+    --text-color-b: var(--color-primary);
+
+    --font-family-base: 'Cabin', Arial, Helvetica, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    --fs-small: 1.2rem;
+    --fs-medium: 1.6rem;
+    --fs-large: 1.8rem;
+    --fs-x-large: 2.3rem;
+    --fs-xx-large: 4.8rem;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+    
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-base);
+    min-height: 100vh;
+    /* Full height to allow layout adjustments */
+    font-size: 18px;
+    background-color: #000;
+    color: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-family: var(--font-family-title);
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+a, a.social-link {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+svg {
+    color: orange;
+    background-color: pink;
+    width: 10%;
+}
+
+/* a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+} */
+
+/* a:active {
+    text-decoration: underline;
+} */
+
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px purple dotted
+  }
+
+
+/* header{
+    height: 10%;
+}
+
+main{
+    height: 80%;
+}
+
+footer{
+    height: 10%;
+} */

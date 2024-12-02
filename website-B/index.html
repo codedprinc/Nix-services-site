@@ -3,34 +3,54 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Nix services limited</title>
-        <meta name="description" content>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href>
+        <title>Nix Services Company limited</title>
+        <meta name="description" content="Nix services is a printing company">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+            integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/website-B/css/styles.css">
+        <link rel="icon" type="image/x-icon"
+            href="/website-B/assets/icons/favicon.ico">
+        <link rel="icon" type="image/png"
+            href="/website-B/assets/icons/favicon-96x96.png">
     </head>
     <body>
+        <div class="starry-background"></div>
         <header>
             <div class="container">
                 <div class="head-logo-nav">
                     <div class="head-logo">
-                        <img src alt="Nix services logo">
+                        <a href="/website-B/index.html" class="head_home">
+                            <img src="/website-B/assets/img/nix_services_logo.png" alt="Nix services logo">
+                        </a>
+                    </div>
+                    <div class="toggle-menu">
+                        <span class="toggle-menu-icon"></span>
+                        <span class="toggle-menu-icon"></span>
+                        <span class="toggle-menu-icon"></span>
                     </div>
                     <nav class="head-nav">
                         <ul class="nav-list">
-                            <li class="na-li"><a href="#" target="_blank"
-                                    rel="noopener noreferrer">Home</a></li>
-                            <li class="na-li"><a href="#" target="_blank"
-                                    rel="noopener noreferrer">Services</a></li>
-                            <li class="na-li"><a href="#" target="_blank"
-                                    rel="noopener noreferrer">Clients</a></li>
-                            <li class="na-li"><a href="#" target="_blank"
-                                    rel="noopener noreferrer">Contact us</a></li>
+                            <!-- <li class="na-li"><a href="#" 
+                                    rel="noopener noreferrer"><span>Services</span></a></li> -->
+                            <li class="na-li"><a href="#" 
+                                    rel="noopener noreferrer"><span></span>Home</a></li>
+                            <li class="na-li"><a href="#services" 
+                                    rel="noopener noreferrer"><span></span>Services</a></li>
+                            <li class="na-li"><a href="#" 
+                                    rel="noopener noreferrer"><span></span>Clients</a></li>
+                            <li class="na-li"><a href="#" 
+                                    rel="noopener noreferrer"><span></span>Contact us</a></li>
                         </ul>
                     </nav>
-                    <div class="head-xtra">
-                        <div class="account-icon"></div>
-                        <div class="dark-mode"></div>
-                        <div class="cart-icon"></div>
+                    <div class="quote-btn">
+                        <button class="dark-mode-toggle" aria-label="Toggle dark mode">🌓</button>
+                        <a href="#">
+                            <button class="btn">Get a quote</button>
+                        </a>
+                        
                     </div>
                 </div>
             </div>
@@ -50,10 +70,10 @@
                     <div class="hero-carousel">
                         <!-- images here -->
                         <div class="slider-container">
-                            <div class="slider" id="slider">
-                                <img src="/api/placeholder/800/400" alt="Slide 1" class="slide">
-                                <img src="/api/placeholder/800/400" alt="Slide 2" class="slide">
-                                <img src="/api/placeholder/800/400" alt="Slide 3" class="slide">
+                            <div class="slider" id="slider" style="display: none;">
+                                <img src="/website-B/assets/img/book-a.png" alt="Slide 1" class="slide">
+                                <img src="/website-B/assets/img/branding_a.png" alt="Slide 2" class="slide">
+                                <img src="/website-B/assets/img/pexels-mikhail-nilov-9301887.jpg" alt="Slide 3" class="slide">
                             </div>
                             <div class="slider-controls">
                                 <button class="btn" id="prevBtn">Previous</button>
@@ -64,7 +84,7 @@
                 </section>
                 <hr>
 
-                <section class="services">
+                <section class="services" id="services">
                     <h2>Services we offer</h2>
                     <ul class="services-list">
                         <li>Document sorting</li>
@@ -82,10 +102,10 @@
                     <div class="services-carousel">
                         <!-- images here -->
                         <div class="slider-container">
-                            <div class="slider" id="slider">
-                                <img src="/api/placeholder/800/400" alt="Slide 1" class="slide">
-                                <img src="/api/placeholder/800/400" alt="Slide 2" class="slide">
-                                <img src="/api/placeholder/800/400" alt="Slide 3" class="slide">
+                            <div class="slider" id="slider" style="display: none;">
+                                <img src="/website-B/assets/img/book-a.png" alt="Slide 1" class="slide">
+                                <img src="/website-B/assets/img/branding_a.png" alt="Slide 2" class="slide">
+                                <img src="/website-B/assets/img/pexels-mikhail-nilov-9301887.jpg" alt="Slide 3" class="slide">
                             </div>
                             <div class="slider-controls">
                                 <button class="btn" id="prevBtn">Previous</button>
@@ -128,13 +148,13 @@
                 </div>
                 <div class="quick-links">
                     <ul class="nav-list">
-                        <li class="na-li"><a href="#" target="_blank"
+                        <li class="na-li"><a href="#" 
                                 rel="noopener noreferrer">Home</a></li>
-                        <li class="na-li"><a href="#" target="_blank"
+                        <li class="na-li"><a href="#" 
                                 rel="noopener noreferrer">Services</a></li>
-                        <li class="na-li"><a href="#" target="_blank"
+                        <li class="na-li"><a href="#" 
                                 rel="noopener noreferrer">Clients</a></li>
-                        <li class="na-li"><a href="#" target="_blank"
+                        <li class="na-li"><a href="#" 
                                 rel="noopener noreferrer">Contact us</a></li>
                     </ul>
                 </div>
@@ -145,7 +165,7 @@
                     <ul class="social nav">
                         <li class="social-item nav-item"><a
                                 href="https://www.facebook.com/nixservicesltd/"
-                                rel="noopener noreferrer" target="_blank"
+                                rel="noopener noreferrer" 
                                 class="social-link"><svg
                                     viewbox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -154,10 +174,11 @@
                                         Facebook icon
                                     </title>
                                     <path
-                                        d="M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z" />
+                                        d="M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z" 
+                                    />
                                 </svg></a></li>
                         <li class="social-item nav-item"><a href="#"
-                                rel="noopener noreferrer" target="_blank"
+                                rel="noopener noreferrer" 
                                 class="social-link"><svg
                                     viewbox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +190,7 @@
                                         d="M23.954 4.569a10 10 0 0 1-2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 0 0-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1-2.228-.616v.061a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1-2.212.085 4.937 4.937 0 0 0 4.604 3.417 9.868 9.868 0 0 1-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 0 0 2.46-2.548l-.047-.02z" />
                                 </svg></a></li>
                         <li class="social-item nav-item"><a href="#"
-                                rel="noopener noreferrer" target="_blank"
+                                rel="noopener noreferrer" 
                                 class="social-link"><svg
                                     viewbox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg"
