@@ -1,0 +1,129 @@
+section.hero-sect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.hero-txt{
+    width: 30%;
+}
+
+.hero-txt h1 {
+    font-size: 5rem;
+    
+}
+
+.hero-txt p {
+    margin-top: .5em;
+    margin-bottom: 3em;
+}
+.hero-img{
+     width: 50%;
+}
+
+
+.hero-img img {
+    width: 50%;
+    margin: 0.5em auto;
+    
+}
+
+
+/* Services section
+ ===================== */
+
+ .card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5em;
+ }
+
+ .card-list .card-item {
+    list-style: none;
+ }
+ .card-list .card-item .card-link {
+    width: 400px;
+    display: block;
+    background: rgba(255, 255, 255, 0.853);
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+ }
+
+ .card-list .card-item .card-link:hover {
+    border-color: var(--color-primary);
+ }
+ 
+ .card-list .card-link .card-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+
+.card-list .card-link .badge {
+    color: var(--color-primary);
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: #DDE4FF;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.card-list .card-link .badge.a{
+    color: coral ;
+    background: #f7dff5;
+}
+.card-list .card-link .badge.b{
+    color: blueviolet;
+    background: #ffe3d2;
+}
+.card-list .card-link .badge.c{
+    color: burlywood;
+    background: #d6f8d6;
+}
+.card-list .card-link .badge.d{
+    color: gold;
+    background: #fff3cd;
+}
+.card-list .card-link .badge.e{
+    color: saddlebrown;
+    background: #f7dff5;
+}
+.card-list .card-link .badge.f{
+    color: rgba(23, 203, 17, 0.938);
+    background: v;
+}
+
+.card-list .card-link .card-title {
+    font-size: 1.19rem;
+    color: #000;
+    font-weight: 600;
+
+}
+
+.card-list .card-link .card-button {
+    height: 35px;
+    width: 35px;
+    color: var(--color-primary);
+    border-radius: 50%;
+    margin: 30px 0 5px;
+    background: none;
+    cursor: pointer;
+    border:  2px solid var(--color-primary);
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+}
+
+.card-list .card-link:hover .card-button {
+    color: #fff;
+    background: var(--color-primary);
+}

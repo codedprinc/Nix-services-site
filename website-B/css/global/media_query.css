@@ -25,7 +25,6 @@
   }
 
   header .head-logo {
-    border: 2px solid red;
     width: 15%;
   }
 }
@@ -41,7 +40,6 @@
   }
 
   header .head-logo {
-    border: 2px solid red;
     width: 25%;
   }
   header .quote-btn {
@@ -81,6 +79,15 @@
   header .toggle-menu.active .toggle-menu-icon:nth-child(3) {
     transform: rotate(-90deg) translate(11px, 13px);
   }
+
+
+  /* Main body section 
+    =============================*/
+
+  section .hero-txt h1 {
+    font-size: 2rem;
+  }
+
 }
 
 /* sm */
@@ -102,7 +109,6 @@
   }
 
   header .head-logo {
-    border: 2px solid red;
     width: 25%;
   }
 
