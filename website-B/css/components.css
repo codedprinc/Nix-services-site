@@ -1,0 +1,85 @@
+/* Button */
+button.btn {
+    display: inline;
+    padding: 1em auto;
+    position: relative;
+    float: left;
+    color: #fff;
+    background-color: var(--primary);
+    border-radius: 6px;
+    
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+.btn::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.btn::before{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    content: "";
+    background: linear-gradient(45deg,
+    #ff0000, #ff7300, #ff5e00,
+    #ff0000, #ff7300, #ff5e00,
+    #ffbb00, #ff0000);
+    background-size: 600%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    filter: blur(8px);
+    border-radius: 10px;
+    opacity: 0;
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+}
+
+
+@keyframes glowing {
+    0%{background-position: 0 0;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+}
+
+.btn::before{
+    opacity: 1;
+}
+
+.btn:active::after{
+    background: transparent ;
+}
+
+.btn:active {
+    color: #deecdcc0;
+    /* font-weight: bold; */
+}
+
+
+
+
+/* top button
+================== */
+
+button.topBtn{
+    background: none;
+    outline: none;
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+

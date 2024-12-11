@@ -12,7 +12,8 @@
 }
 .head-logo{
     width: 10%;
-    margin-right: 3em;
+    
+    
     /* margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -27,6 +28,9 @@
 
 .head-nav{
     width: 30%;
+   
+    font-size: var(--fs-small);
+    font-weight: 300;
 }
 
 .nav-list{
@@ -39,7 +43,7 @@
 
 
 .nav-list a{
-    color: white;
+    color: var(--black);
     padding: 0%;
 }
 
@@ -56,80 +60,8 @@ a:focus {
 }
 
 
-
-
-/* Button */
-button.btn {
-    display: inline;
-    padding: 1em auto;
-    position: relative;
-    float: left;
-    color: #fff;
-    background-color: var(--color-primary);
-    border-radius: 6px;
-    /* outline: none; */
-
-}
-
-
-.btn::after{
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    height: 100%;
-    width: 100%;
+/* button */
+.dark-mode-btn{
     
-    border-radius: 10px;
-    z-index: -1;
 }
-
-.btn::before{
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    content: "";
-    background: linear-gradient(45deg,
-    #ff0000, #ff7300, #ff5e00,
-    #ffbb00, #ff0000);
-    background-size: 600%;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    z-index: -1;
-    filter: blur(8px);
-    border-radius: 10px;
-    opacity: 0;
-    animation: glowing 20s linear infinite;
-    transition: opacity .3s ease-in-out;
-}
-
-
-@keyframes glowing {
-    0%{background-position: 0 0;}
-    50%{background-position: 400% 0;}
-    100%{background-position: 0 0;}
-}
-
-.btn::before{
-    opacity: 1;
-}
-
-.btn:active::after{
-    background: transparent ;
-}
-
-.btn:active {
-    color: #deecdcc0;
-    /* font-weight: bold; */
-}
-
-
-/* .dark-mode-toggle {
-    /* margin-left: .5em; */
-
-
-
-/* Animations */
-
-
 

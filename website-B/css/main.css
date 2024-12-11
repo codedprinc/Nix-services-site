@@ -1,76 +1,101 @@
+/* Hero section
+=================== */
+
 section.hero-sect {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3em;
 }
-.hero-txt{
-    width: 30%;
+
+.hero-txt {
+    width: 50%;
 }
 
 .hero-txt h1 {
-    font-size: 5rem;
-    
+    font-size: 8rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+
 }
+
+/* .hero-txt  span{
+    transition: 0.5s;
+} 
+
+.hero-txt h1:hover span{
+    color: var(--color-primary);
+    text-shadow: 0 0 10px var(--color-primary),
+                 0 0 20px var(--color-primary),
+                 0 0 40px var(--color-primary);
+            
+} */
 
 .hero-txt p {
     margin-top: .5em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+    color: var(--black);
+    font-size: var(--fs-medium);
 }
-.hero-img{
-     width: 50%;
+
+.hero-img {
+    width: 50%;
 }
 
 
 .hero-img img {
     width: 50%;
     margin: 0.5em auto;
-    
+
 }
 
 
 /* Services section
  ===================== */
 
- .card-list {
+.card-list {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 0.5em;
- }
+}
 
- .card-list .card-item {
+.card-list .card-item {
     list-style: none;
- }
- .card-list .card-item .card-link {
+}
+
+.card-list .card-item .card-link {
     width: 400px;
     display: block;
-    background: rgba(255, 255, 255, 0.853);
+    background: rgba(255, 255, 255, 0.1);
     padding: 18px;
     border-radius: 12px;
     text-decoration: none;
     border: 2px solid transparent;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
-    transition: 0.2s ease;
- }
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1),
+        inset 0 1px 5px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
 
- .card-list .card-item .card-link:hover {
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .card-link:hover {
     border-color: var(--color-primary);
- }
- 
- .card-list .card-link .card-image {
+}
+
+.card-list .card-link .card-image {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 10px;
- }
+}
 
 .card-list .card-link .badge {
     color: var(--color-primary);
     padding: 8px 16px;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     font-weight: 500;
     margin: 16px 0 18px;
     background: #DDE4FF;
@@ -78,27 +103,32 @@ section.hero-sect {
     border-radius: 50px;
 }
 
-.card-list .card-link .badge.a{
-    color: coral ;
+.card-list .card-link .badge.a {
+    color: coral;
     background: #f7dff5;
 }
-.card-list .card-link .badge.b{
+
+.card-list .card-link .badge.b {
     color: blueviolet;
     background: #ffe3d2;
 }
-.card-list .card-link .badge.c{
+
+.card-list .card-link .badge.c {
     color: burlywood;
     background: #d6f8d6;
 }
-.card-list .card-link .badge.d{
+
+.card-list .card-link .badge.d {
     color: gold;
     background: #fff3cd;
 }
-.card-list .card-link .badge.e{
+
+.card-list .card-link .badge.e {
     color: saddlebrown;
     background: #f7dff5;
 }
-.card-list .card-link .badge.f{
+
+.card-list .card-link .badge.f {
     color: rgba(23, 203, 17, 0.938);
     background: v;
 }
@@ -118,7 +148,7 @@ section.hero-sect {
     margin: 30px 0 5px;
     background: none;
     cursor: pointer;
-    border:  2px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     transform: rotate(-45deg);
     transition: 0.4s ease;
 }
@@ -126,4 +156,81 @@ section.hero-sect {
 .card-list .card-link:hover .card-button {
     color: #fff;
     background: var(--color-primary);
+}
+
+/* Services-popup section
+========================= */
+
+.card-popup {
+    display: block;
+    position: fixed;
+    z-index: 4;
+    transform: translate(19.5em, 5em);
+
+
+}
+
+.card-popup li {
+    display: none;
+    scale: 0.9;
+    animation: fadeOut 0.5s forwards;
+}
+
+.card-popup li.show {
+    scale: 1.0;
+    display: block;
+    animation: fadeIn 0.5s forwards;
+}
+
+.services-popup .card-list .card-item .card-link {
+    width: 600px
+}
+
+
+body.blurred>*:not(section.services-popup) {
+    filter: blur(5px);
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* Clients section
+======================= */
+
+.clients .client-icons {
+    display: flex;
+
+}
+
+.clients .card-logo {
+    border: 2px solid var(--primary);
+    border-radius: 15px;
+    flex: 30%;
+}
+
+.clients img {
+    margin: 0 auto;
+    width: 70%;
+    /* aspect-ratio: 4 / 3; */
+    object-fit: cover;
 }

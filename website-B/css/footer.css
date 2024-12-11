@@ -1,5 +1,42 @@
 footer {
-    background: var(--color-white);
+    color: ghostwhite;
+    background-color: black;
+    border: 2px dotted green;
+   
+}
+
+footer .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex .flex-1 {
+    position: relative;
+    top: 1.3em;
+    border: 2px solid red;
+    width: 50%;
+    height: 100%;
+    padding: 0.5em;
     display: flex;
     flex-direction: row;
 }
+
+.flex .flex-1 .address{
+    border: 1px solid white;
+}
+
+.flex .flex-1 .address img  {
+    width: 40%;
+}
+
+.flex .flex-1 .quick-links {
+    border: 1px solid orange;
+}
+.flex .flex-2 {
+    
+    border: 2px solid red;
+    height: 60%;
+    width: 50%;
+    padding: 0.5em;
+}
+
